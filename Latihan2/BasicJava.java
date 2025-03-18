@@ -38,4 +38,19 @@ public class BasicJava {
         System.out.println("NIM    : " + nim);
         System.out.println("Status : " + status);
     }
+
+    public static void operator(){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Masukkan Nilai Pertama : ");
+        int angka1 = input.nextInt();
+        System.out.println("Masukkan Nilai Kedua : ");
+        int angka2 = input.nextInt();
+
+        System.out.println("\t Hasil Operasi Aritmatika ");
+        System.out.println("Hasil Penjumlahan : " + (angka1 + angka2));
+        System.out.println("Hasil Pengurangan : " + (angka1 - angka2));
+        System.out.println("Hasil Perkalian : " + (angka1 * angka2));
+        System.out.println("Hasil Pembagian : " + (angka1 / angka2));
+        System.out.println("Hasil Modulus : " + (angka1 % angka2));
+    }
 }
