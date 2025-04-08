@@ -22,16 +22,16 @@ public class BasicJava {
     }
 
     public static void var_input(){
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Masukkan nama anda : ");
-        String nama = scanner.nextLine();
+        String nama = input.nextLine();
         
         System.out.println("Masukkan nim anda : ");
-        String nim = scanner.nextLine();
+        String nim = input.nextLine();
 
         System.out.println("Masukkan status anda : ");
-        String status = scanner.nextLine();
+        String status = input.nextLine();
 
         System.out.println("----------------Data Anda------------------");
         System.out.println("Nama   : " + nama);
