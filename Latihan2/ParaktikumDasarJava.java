@@ -1,4 +1,7 @@
 package Latihan2;
+
+import Latihan3.Kondisi1;
+
 public class ParaktikumDasarJava {
     public static void main(String[] args) {
         // System.out.println("Isi Method Tampil");
@@ -9,6 +12,7 @@ public class ParaktikumDasarJava {
         
         // BasicJava.variable();
         // BasicJava.var_input();
-        BasicJava.operator();
+        // BasicJava.operator();
+        // Kondisi.grade();
     }
 }
