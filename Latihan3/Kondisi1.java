@@ -15,6 +15,8 @@ public class Kondisi1{
                System.out.println("Grade anda adalah C");     
           }else if(nilai < 50){
                System.out.println("Grade anda adalah E");
+          }else{
+               System.out.println("Anda Wajib Memasukkan Angka...");
           }
      }
 }
