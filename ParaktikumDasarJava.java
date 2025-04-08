@@ -1,4 +1,4 @@
-package Latihan2;
+
 
 import Latihan3.Kondisi1;
 
@@ -13,6 +13,6 @@ public class ParaktikumDasarJava {
         // BasicJava.variable();
         // BasicJava.var_input();
         // BasicJava.operator();
-        // Kondisi.grade();
+        Kondisi1.grade();
     }
 }

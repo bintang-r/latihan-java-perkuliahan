@@ -18,5 +18,7 @@ public class Kondisi1{
           }else{
                System.out.println("Anda Wajib Memasukkan Angka...");
           }
+
+          input.close();
      }
 }

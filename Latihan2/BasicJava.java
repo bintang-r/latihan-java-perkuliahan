@@ -32,11 +32,13 @@ public class BasicJava {
 
         System.out.println("Masukkan status anda : ");
         String status = input.nextLine();
-
+        
         System.out.println("----------------Data Anda------------------");
         System.out.println("Nama   : " + nama);
         System.out.println("NIM    : " + nim);
         System.out.println("Status : " + status);
+        
+        input.close();
     }
 
     public static void operator(){
@@ -68,5 +70,7 @@ public class BasicJava {
         System.out.println("Apakah kedua angka positif? " + (kondisi1 && kondisi2));
         System.out.println("Apakah salah satu angka positif? " + (kondisi1 || kondisi2));
         System.out.println("Apakah angka1 bukan positif? " + (!kondisi1));
+
+        input.close();
     }
 }
