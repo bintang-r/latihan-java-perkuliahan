@@ -73,4 +73,53 @@ public class BasicJava {
 
         input.close();
     }
+
+    public static void grade_sc(){
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Masukkan nilai anda : ");
+        int bulan = input.nextInt();
+
+        switch (bulan) {
+            case 1:
+                System.out.println("Bulan pertama adalah bulan Januari");
+                break;
+            case 2:
+                System.out.println("Bulan pertama adalah bulan Februari");
+                break;
+            case 3:
+                System.out.println("Bulan pertama adalah bulan Maret");
+                break;
+            case 4:
+                System.out.println("Bulan pertama adalah bulan April");
+                break;
+            case 5:
+                System.out.println("Bulan pertama adalah bulan Mei");
+                break;
+            case 6:
+                System.out.println("Bulan pertama adalah bulan Juni");
+                break;
+            case 7:
+                System.out.println("Bulan pertama adalah bulan Juli");
+                break;
+            case 8:
+                System.out.println("Bulan pertama adalah bulan Agustus");
+                break;
+            case 9:
+                System.out.println("Bulan pertama adalah bulan September");
+                break;
+            case 10:
+                System.out.println("Bulan pertama adalah bulan Oktober");
+                break;
+            case 11:
+                System.out.println("Bulan pertama adalah bulan November");
+                break;
+            case 12:
+                System.out.println("Bulan pertama adalah bulan Desember");
+                break;
+            default:
+                System.out.println("Tidak ada bulan 13");
+                break;
+        }
+    }
 }

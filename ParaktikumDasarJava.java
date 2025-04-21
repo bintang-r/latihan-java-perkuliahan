@@ -1,5 +1,6 @@
 
 
+import Latihan2.BasicJava;
 import Latihan3.Kondisi1;
 
 public class ParaktikumDasarJava {
@@ -13,6 +14,7 @@ public class ParaktikumDasarJava {
         // BasicJava.variable();
         // BasicJava.var_input();
         // BasicJava.operator();
-        Kondisi1.grade();
+        // Kondisi1.grade();
+        BasicJava.grade_sc();
     }
 }
