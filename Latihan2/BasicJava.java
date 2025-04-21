@@ -85,37 +85,37 @@ public class BasicJava {
                 System.out.println("Bulan pertama adalah bulan Januari");
                 break;
             case 2:
-                System.out.println("Bulan pertama adalah bulan Februari");
+                System.out.println("Bulan kedua adalah bulan Februari");
                 break;
             case 3:
-                System.out.println("Bulan pertama adalah bulan Maret");
+                System.out.println("Bulan ketiga adalah bulan Maret");
                 break;
             case 4:
-                System.out.println("Bulan pertama adalah bulan April");
+                System.out.println("Bulan ke empat adalah bulan April");
                 break;
             case 5:
-                System.out.println("Bulan pertama adalah bulan Mei");
+                System.out.println("Bulan ke lima adalah bulan Mei");
                 break;
             case 6:
-                System.out.println("Bulan pertama adalah bulan Juni");
+                System.out.println("Bulan ke enam adalah bulan Juni");
                 break;
             case 7:
-                System.out.println("Bulan pertama adalah bulan Juli");
+                System.out.println("Bulan ke tujuh adalah bulan Juli");
                 break;
             case 8:
-                System.out.println("Bulan pertama adalah bulan Agustus");
+                System.out.println("Bulan ke delapan adalah bulan Agustus");
                 break;
             case 9:
-                System.out.println("Bulan pertama adalah bulan September");
+                System.out.println("Bulan ke sembilan adalah bulan September");
                 break;
             case 10:
-                System.out.println("Bulan pertama adalah bulan Oktober");
+                System.out.println("Bulan ke sepuluh adalah bulan Oktober");
                 break;
             case 11:
-                System.out.println("Bulan pertama adalah bulan November");
+                System.out.println("Bulan ke sebelas adalah bulan November");
                 break;
             case 12:
-                System.out.println("Bulan pertama adalah bulan Desember");
+                System.out.println("Bulan ke dua belas adalah bulan Desember");
                 break;
             default:
                 System.out.println("Tidak ada bulan 13");
