@@ -12,11 +12,13 @@ public class Looping {
      public static void ForInput(){
           Scanner input = new Scanner(System.in);
           System.out.print("Masukkan angka : ");
-          int angka = input.nextInt();
-          System.out.println("Perulangan Sebanyak " + angka);
 
-          for(int i = 1; i <= angka; i++){
-               System.out.println("Perulangan ke-" + i);
+          int a,b;
+          b = input.nextInt();
+          System.out.println("Perulangan Sebanyak " + b);
+
+          for(a = 1; a <= b; a++){
+               System.out.println("Perulangan ke-" + a);
           }
      }
 }

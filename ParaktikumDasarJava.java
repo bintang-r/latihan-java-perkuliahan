@@ -16,6 +16,7 @@ public class ParaktikumDasarJava {
 
         System.out.println("Method Perulangan");
         Looping.Forr();
+
         System.out.println("Method Perulangan Dengan Input");
         Looping.ForInput();
     }
