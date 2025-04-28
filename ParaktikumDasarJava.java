@@ -1,8 +1,5 @@
 
 
-import Latihan2.BasicJava;
-import Latihan3.Kondisi1;
-
 public class ParaktikumDasarJava {
     public static void main(String[] args) {
         // System.out.println("Isi Method Tampil");
@@ -15,6 +12,11 @@ public class ParaktikumDasarJava {
         // BasicJava.var_input();
         // BasicJava.operator();
         // Kondisi1.grade();
-        BasicJava.grade_sc();
+        // BasicJava.grade_sc();
+
+        System.out.println("Method Perulangan");
+        Looping.Forr();
+        System.out.println("Method Perulangan Dengan Input");
+        Looping.ForInput();
     }
 }
