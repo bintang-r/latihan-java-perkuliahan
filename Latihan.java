@@ -1,4 +1,3 @@
-package Latihan1;
 public class Latihan{
     public static void main(String[] args) {
         String kelas = "T.401";
