@@ -14,10 +14,13 @@ public class ParaktikumDasarJava {
         // Kondisi1.grade();
         // BasicJava.grade_sc();
 
-        System.out.println("Method Perulangan");
-        Looping.Forr();
+        // System.out.println("Method Perulangan");
+        // Looping.Forr();
 
-        System.out.println("Method Perulangan Dengan Input");
-        Looping.ForInput();
+        // System.out.println("Method Perulangan Dengan Input");
+        // Looping.ForInput();
+
+        Perulangan.WhileDo();
+        Perulangan.DoWhile();
     }
 }
