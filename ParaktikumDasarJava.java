@@ -20,7 +20,9 @@ public class ParaktikumDasarJava {
         // System.out.println("Method Perulangan Dengan Input");
         // Looping.ForInput();
 
-        Perulangan.WhileDo();
-        Perulangan.DoWhile();
+        // Perulangan.WhileDo();
+        // Perulangan.DoWhile();
+
+        LatihanArray.array1DimensiKasus3();
     }
 }
