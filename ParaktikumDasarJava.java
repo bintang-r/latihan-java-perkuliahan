@@ -23,6 +23,8 @@ public class ParaktikumDasarJava {
         // Perulangan.WhileDo();
         // Perulangan.DoWhile();
 
-        LatihanArray.array1DimensiKasus3();
+        // LatihanArray.array1DimensiKasus3();
+
+        Latihan.Latihan10();
     }
 }
