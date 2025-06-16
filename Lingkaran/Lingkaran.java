@@ -1,10 +1,10 @@
 package Lingkaran;
 
 class Lingkaran{
-     double luas, jariJari;
+     double jariJari;
 
      public double getLuas(){
-          return this.luas;
+          return 2 * 3.14 * this.jariJari;
      }
 
      public double getKeliling(){
