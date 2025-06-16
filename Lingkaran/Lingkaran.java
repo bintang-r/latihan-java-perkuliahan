@@ -1,14 +1,14 @@
 package Lingkaran;
 
 class Lingkaran{
-     double luas, keliling, jariJari;
+     double luas, jariJari;
 
      public double getLuas(){
           return this.luas;
      }
 
      public double getKeliling(){
-          return this.keliling;
+          return 3.14 * this.jariJari * this.jariJari;
      }
 
      public void setJariJari(int jariJari){
