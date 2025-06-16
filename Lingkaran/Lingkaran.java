@@ -4,11 +4,11 @@ class Lingkaran{
      double jariJari;
 
      public double getLuas(){
-          return 2 * 3.14 * this.jariJari;
+          return 3.14 * this.jariJari * this.jariJari;
      }
 
      public double getKeliling(){
-          return 3.14 * this.jariJari * this.jariJari;
+          return 2 * 3.14 * this.jariJari;
      }
 
      public void setJariJari(int jariJari){
