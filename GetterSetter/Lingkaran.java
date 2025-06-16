@@ -1,4 +1,4 @@
-package Lingkaran;
+package GetterSetter;
 
 class Lingkaran{
      double jariJari;
