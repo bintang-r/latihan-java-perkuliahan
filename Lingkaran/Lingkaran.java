@@ -1,13 +1,13 @@
 package Lingkaran;
 
 class Lingkaran{
-     int luas, keliling, jariJari;
+     double luas, keliling, jariJari;
 
-     public int getLuas(){
+     public double getLuas(){
           return this.luas;
      }
 
-     public int getKeliling(){
+     public double getKeliling(){
           return this.keliling;
      }
 
