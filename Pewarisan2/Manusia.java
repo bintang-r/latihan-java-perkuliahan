@@ -1,7 +1,7 @@
 package Pewarisan2;
 
 public class Manusia {
-     protected String nama, gayaRambut, bentukWajah, warnaKulit, jenisKelamin;
+     protected String nama, gayaRambut, bentukWajah, warnaKulit, jenisKelamin, warnaMata, warnaRambut;
      protected int tinggiBadan, umur;
 
      public Manusia(
@@ -27,6 +27,8 @@ public class Manusia {
           System.out.println("Umur : " + this.umur);
           System.out.println("Bentuk Wajah : " + this.bentukWajah);
           System.out.println("Gaya Rambut : " + this.getGayaRambut());
+          System.out.println("Warna Mata : " + this.getWarnaMata());
+          System.out.println("Warna Rambut : " + this.getWarnaRambut());
           System.out.println("");
      }
 
@@ -40,9 +42,24 @@ public class Manusia {
           return this.jenisKelamin;
      }
      
-
      public void setGayaRambut(String gayaRambut){
           this.gayaRambut = gayaRambut;
+     }
+
+     public void setWarnaMata(String warnaMata){
+          this.warnaMata = warnaMata;
+     }
+
+     public String getWarnaMata(){
+          return this.warnaMata;
+     }
+
+     public  void setWarnaRambut(String warnaRambut){
+          this.warnaRambut = warnaRambut;
+     }
+
+     public String getWarnaRambut(){
+          return "warna rambut nya adalah " + this.warnaRambut;
      }
 
      public String getGayaRambut(){

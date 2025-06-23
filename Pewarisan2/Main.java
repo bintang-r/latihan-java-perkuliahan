@@ -10,6 +10,8 @@ public class Main {
           arma.infoIdentitas();
           arma.getJenjangPendidikan();
           arma.getPekerjaan();
+          arma.setWarnaRambut("hitam");
+          arma.setWarnaMata("coklat");
           arma.makan("Nasi Padang");
           arma.berjalan();
           arma.berlari();
@@ -28,6 +30,8 @@ public class Main {
           fatimah.setJenjangPendidikan("S1 Sistem Informasi");
           fatimah.perkenalanDiri();
           fatimah.infoIdentitas();
+          fatimah.setWarnaMata("hitam");
+          fatimah.setWarnaRambut("coklat");
           fatimah.getJenjangPendidikan();
           fatimah.getPekerjaan();
           fatimah.makan("nasi kuning");
@@ -47,6 +51,8 @@ public class Main {
           olivia.setGayaRambut("Lurus");
           olivia.setJenjangPendidikan("S2 Ilmu Ekonomi");
           olivia.setPekerjaan("Pegawai Negeri Sipil");
+          olivia.setWarnaMata("coklat");
+          olivia.setWarnaRambut("coklat terang");
           olivia.perkenalanDiri();
           olivia.infoIdentitas();
           olivia.infoIdentitas();
