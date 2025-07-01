@@ -8,30 +8,22 @@ public class Segitiga extends BangunDatar {
      private double sisiC;
 
      // abstract implementation
-          public double getLuas() {
-          return hitungLuas();
+     public double getLuas() {
+          return 0.5 * this.alas * this.tinggi;
      }
 
      public double getKeliling() {
-          return  hitungKeliling();
+          return  this.sisiA + this.sisiB + this.sisiC;
      }
 
      //  setter getter
      public void setAlas(double alas) {
           this.alas = alas;
      }
-
-          public double getAlas() {
-               return alas;
-          }
-
+     
      public void setTinggi(double tinggi) {
           this.tinggi = tinggi;
      }
-
-          public double getTinggi() {
-               return tinggi;
-          }
 
      public void setSisi(double sisiA, double sisiB, double sisiC) {
           this.sisiA = sisiA;
@@ -39,12 +31,23 @@ public class Segitiga extends BangunDatar {
           this.sisiC = sisiC;
      }
 
-     // logic bagundatar
-     private double hitungLuas() {
-          return 0.5 * this.alas * this.tinggi;
+     public double getAlas() {
+          return alas;
      }
 
-     private double hitungKeliling() {
-          return this.sisiA + this.sisiB + this.sisiC;
+     public double getTinggi() {
+          return tinggi;
+     }
+
+     public double getSisiA(){
+          return this.sisiA;
+     }
+
+     public double getSisiB(){
+          return this.sisiB;
+     }
+
+     public double getSisiC(){
+          return this.sisiC;
      }
 }
